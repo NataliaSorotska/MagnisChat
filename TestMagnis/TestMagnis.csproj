@@ -54,7 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataModel\AccountMeneger.cs" />
+    <Compile Include="DataModel\AccountManager.cs" />
     <Compile Include="DataModel\Account.cs" />
     <Compile Include="DataModel\ChatContext.cs" />
     <Compile Include="DataModel\Message.cs" />
