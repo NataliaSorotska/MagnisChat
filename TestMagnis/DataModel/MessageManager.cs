@@ -24,7 +24,7 @@ namespace TestMagnis.DataModel
             {
                 Message[] lastMessages = context.Messages
                     .OrderByDescending(m => m.MessageDate)
-                    .Take(count).
+                    .Take(count).OrderBy(m => m.MessageDate).
                     ToArray();
                 return lastMessages;
             }
