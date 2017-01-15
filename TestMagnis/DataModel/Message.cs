@@ -21,5 +21,8 @@ namespace TestMagnis.DataModel
 
         [Required]
         public int AccountId { get; set; }
+        
+        [Required]
+        public String AccountName { get; set; }
     }
 }
