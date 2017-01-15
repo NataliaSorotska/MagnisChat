@@ -78,6 +78,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChatServer.cs" />
     <Compile Include="DataModel\AccountManager.cs" />
     <Compile Include="DataModel\Account.cs" />
     <Compile Include="DataModel\ChatContext.cs" />
